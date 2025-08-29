@@ -8,7 +8,7 @@ Case Context: The aim of this project was to process and analyse the customer re
 Yearly customer reviews extracted from Google and Trustpilot.
 
 
-## 🔹 Tools and Methodology
+## 🔹 Methodology
 
 * Performed the necessary text preprocessing and EDA, identified and visualised the most frequently used words in the reviews.
 
@@ -31,7 +31,7 @@ Yearly customer reviews extracted from Google and Trustpilot.
 * Conducted a comparison of BERTopic with **Gensim’s LDA model** to validate the results and ensure robustness.
 
 
-## 🔹 Tools Used
+## 🔹 Tools
 - Python, NumPy, Pandas
 - Matplotlib, Seaborn, Scikit-learn
 - NLTK, WordCloud
