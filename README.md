@@ -1,6 +1,6 @@
 #  Applying NLP for topic modelling & customer sentiment analysis
 
-Case Context: The aim of this project was to process and analyse the customer reviews of a Multinational Gym provider using NLP and LLM pipelines to pinpoint key areas of improvements, propose actionable solutions for addressing the prevalent problems and improve customer satisfaction.
+The aim of this project was to process and analyse the customer reviews of a Multinational Gym provider using NLP and LLM pipelines to pinpoint key areas of improvements, propose actionable solutions for addressing the prevalent problems and improve customer satisfaction.
 
 
 ## 🔹 Data
@@ -20,13 +20,13 @@ Yearly customer reviews extracted from Google and Trustpilot.
 
 * Performed **emotion analysis** to determine the emotions associated with the reviews.
 
-* Filtered the angry reviews and applied BERTopic to discover prevalent topics and words being discussed in these negative reviews.
+* Filtered the angry reviews and applied BERTopic to discover prevalent topics and words in these negative reviews.
 
 * Summarised the outputs into actionable insights.
 
-* Leveraged the multi-purpose capability of **Microsoft's Phi-4-mini-instruct model** <https://huggingface.co/microsoft/Phi-4-mini-instruct> to compare the identified top topics.
+* Leveraged the multi-purpose capability of **Microsoft's Phi-4-mini-instruct model** <https://huggingface.co/microsoft/Phi-4-mini-instruct> to compare the identified dominant topics.
 
-* Utilised additional prompting to generate further improvement suggestions for the client, based on the top topics identified from the negative reviews.
+* Utilised the created pipeline with additional prompting to generate further improvement suggestions for the client, based on the main topics identified from the negative reviews.
 
 * Conducted a comparison of BERTopic with **Gensim’s LDA model** to validate the results and ensure robustness.
 
@@ -46,4 +46,8 @@ Yearly customer reviews extracted from Google and Trustpilot.
 
 * Emotion analysis revealed anger and frustration dominating negative reviews, particularly in large urban gyms.
 
-* Suggested improvements: better customer support training, flexible membership policies, and equipment upgrade schedules.
+* Actionable improvements included:
+  * Enhance staff an dcustomer support training
+  * Devise flexible membership policies
+  * Improve equipment upgrade schedules
+  * Redesign schedule of offered classes forimproved engagement and attendance
