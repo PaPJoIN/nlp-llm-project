@@ -51,3 +51,7 @@ Over 20,000 customer reviews collected annually from Google Reviews and Trustpil
   * Devise flexible membership policies
   * Improve equipment upgrade schedules
   * Redesign schedule of offered classes for improved engagement and attendance
+
+---
+ <img width="1142" height="646" alt="image" src="https://github.com/user-attachments/assets/c99de6c5-f17e-4e27-a805-6cfa8df371e7" />
+
