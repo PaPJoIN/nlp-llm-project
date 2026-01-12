@@ -1,11 +1,11 @@
 #  Applying NLP for topic modelling & customer sentiment analysis
 
-The aim of this project was to process and analyse the customer reviews of a Multinational Gym provider using NLP and LLM pipelines to pinpoint key areas of improvements, propose actionable solutions for addressing the prevalent problems and improve customer satisfaction.
+The aim of this project was to process and analyse the customer reviews of a Multinational Gym provider using NLP and LLM-based pipelines to pinpoint key areas for improvements, propose actionable solutions for addressing the prevalent problems and improve customer satisfaction.
 
 
 ## 🔹 Data
 
-Yearly customer reviews extracted from Google and Trustpilot.
+Over 20,000 customer reviews collected annually from Google Reviews and Trustpilot.
 
 
 ## 🔹 Methodology
@@ -24,11 +24,11 @@ Yearly customer reviews extracted from Google and Trustpilot.
 
 * Summarised the outputs into actionable insights.
 
-* Leveraged the multi-purpose capability of **Microsoft's Phi-4-mini-instruct model** <https://huggingface.co/microsoft/Phi-4-mini-instruct> to compare the identified dominant topics.
+* Leveraged the multi-purpose capability of **Microsoft's Phi-4-mini-instruct model** <https://huggingface.co/microsoft/Phi-4-mini-instruct> to compare and interpret the identified dominant topics.
 
-* Utilised the created pipeline with additional prompting to generate further improvement suggestions for the client, based on the main topics identified from the negative reviews.
+* Utilised the created pipeline with additional prompting to generate additional improvement suggestions, based on the main topics identified from the negative reviews.
 
-* Conducted a comparison of BERTopic with **Gensim’s LDA model** to validate the results and ensure robustness.
+* Conducted a comparative analysis between BERTopic and **Gensim’s LDA model** to validate topic coherence and ensure methodological robustness.
 
 
 ## 🔹 Tools
@@ -42,12 +42,12 @@ Yearly customer reviews extracted from Google and Trustpilot.
 
 ## 🔹 Results and Findings
 
-* Key negative themes: poor equipment maintenance, hygiene, unhelpful staff, and contract cancellation issues making up over 65% of complaints.
+* Key negative themes: poor equipment maintenance, hygiene, unhelpful staff, and contract cancellation issues making up over 65% of negative feedback.
 
 * Emotion analysis revealed anger and frustration dominating negative reviews, particularly in large urban gyms.
 
 * Actionable improvements included:
-  * Enhance staff an dcustomer support training
+  * Enhance staff and customer support training
   * Devise flexible membership policies
   * Improve equipment upgrade schedules
-  * Redesign schedule of offered classes forimproved engagement and attendance
+  * Redesign schedule of offered classes for improved engagement and attendance
